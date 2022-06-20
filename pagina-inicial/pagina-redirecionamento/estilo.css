@@ -99,21 +99,33 @@
     font-weight: 500;
   }
 
-  #campo-escolha{
-    display: flex;
-    margin-top: 10.3%;
-    width: 70%;
-    height: 3rem;
-    margin-left: 9%;
-    border-radius: 10px;
-    border: none;
-    text-align: left;
-    padding-left:3% ;
+  #escolhedor{
+   
+    position: absolute;
+    top: 47%;
+    margin-left: 4.6%;
+    width: 40%;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-    font-weight: 700;
+    background-color: white;
+    text-align: center;
+    height: 1.8em;
+    padding-top: 0.4%;
+    color: rgb(49, 48, 48);
+    font-weight: 900;
+    border-radius: 10px;
 
 
+  }
+
+  #resultado{
+
+    position: absolute;
+    top: 20%;
+    right: 103%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    font-weight: 500;
   }
 
   .lista-imagem{
