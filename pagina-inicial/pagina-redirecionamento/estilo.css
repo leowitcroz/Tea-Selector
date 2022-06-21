@@ -178,14 +178,14 @@
       display: flex;
       justify-content: space-around;
       flex-direction: column;
-      height: 55rem;
+      height: 100vh;
     
     }
 
 
     .titulo {
       font-family: 'Dancing Script', cursive;
-      font-size: 31px;
+      font-size: 24px;
       color: rgb(56, 40, 13);
       text-shadow: 0.5px 1px #000;
       font-weight: 800;
@@ -208,7 +208,7 @@
   display: flex;
   text-align: center;
   width: 138%;
-  margin-left: 38.2%;
+  margin-left: 44.2%;
   height: 2.3em;
   font-size: 19px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -222,7 +222,7 @@
 
 .label-nome {
   position: absolute;
-  margin-top: 30px;
+  margin-top: 28px;
   font-size: 23px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 500;
@@ -233,7 +233,7 @@
 
 .botao-redirect {
   position: absolute;
-  width: 69%;
+  width: 76%;
   height: 3em;
   margin-top: 20.8%;
   font-size: 20px;
@@ -248,18 +248,20 @@
 
 .botao-redirect:hover{
 
-  position: absolute;
-  width: 69%;
-  height: 3em;
-  margin-top: 22.8%;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-radius: 10px;
-  background-color: rgb(212, 154, 53);
-  cursor: pointer;
-  border: 1px solid rgb(94, 64, 13);
-  font-weight: 700;
-  margin-left: 18.6%;
+ 
+    position: absolute;
+    width: 76%;
+    height: 3em;
+    margin-top: 20.8%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    background-color: rgb(212, 154, 53);
+    cursor: pointer;
+    border: 1px solid rgb(94, 64, 13);
+    font-weight: 700;
+    margin-left: 19.6%;
+
 
 }
 
@@ -277,10 +279,10 @@
 
 #escolhedor {
   position: absolute;
-  top: 39.9%;
+  top: 40.9%;
   margin-left: 18.6%;
   width: 78%;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: white;
   text-align: center;
@@ -289,6 +291,7 @@
   color: rgb(49, 48, 48);
   font-weight: 900;
   border-radius: 10px;
+  position: absolute;
 }
 
 #resultado {
@@ -298,7 +301,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #000;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 19px;
   padding-right: 0%;
 }
 
@@ -311,7 +314,7 @@
   display: flex;
   width: 290%;
   flex-direction: column;
-  margin-bottom: 50%;
+  margin-bottom: 12%;
 }
 
 
@@ -337,3 +340,6 @@
 
   }
 
+
+
+  
